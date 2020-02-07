@@ -190,6 +190,10 @@ Variation8=Designator=C10|UniqueId=\HDTDJPIS\DTLMPUAF|Kind=1|AlternatePart=
 Variation9=Designator=C27|UniqueId=\SSVWYUFP\XATWRYJM|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
+[GeneratedDocument1]
+DocumentPath=..\outputs_NO_SVN\Design Rule Check - oysm_Keyboard.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Default Configuration
 ParameterCount=0
