@@ -15,13 +15,13 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=
+Name=oysm_Keyboard.OutJob
 Description=
-TargetOutputMedium=Generate PCB 3D
+TargetOutputMedium=Generate BOM
 VariantName=[No Variations]
 VariantScope=0
 CurrentConfigurationName=
-TargetPrinter=Virtual Printer
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print To \\VIPER\xeroxtrh
 OutputMedium1_Type=Printer
@@ -59,7 +59,7 @@ OutputEnabled1_OutputMedium7=0
 OutputEnabled1_OutputMedium8=0
 OutputEnabled1_OutputMedium9=0
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=3.53|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=2.60|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration1_Name1=OutputConfigurationParameter1
 Configuration1_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView
 Configuration1_Name2=OutputConfigurationParameter2
@@ -314,13 +314,13 @@ OutputName9=bom_documentation
 OutputCategory9=Report
 OutputDocumentPath9=
 OutputVariantName9=
-OutputEnabled9=0
+OutputEnabled9=1
 OutputEnabled9_OutputMedium1=0
 OutputEnabled9_OutputMedium2=0
 OutputEnabled9_OutputMedium3=0
 OutputEnabled9_OutputMedium4=1
-OutputEnabled9_OutputMedium5=0
-OutputEnabled9_OutputMedium6=0
+OutputEnabled9_OutputMedium5=2
+OutputEnabled9_OutputMedium6=4
 OutputEnabled9_OutputMedium7=0
 OutputEnabled9_OutputMedium8=0
 OutputEnabled9_OutputMedium9=0
@@ -426,7 +426,7 @@ OutputName13=pcb_3d
 OutputCategory13=Export
 OutputDocumentPath13=
 OutputVariantName13=
-OutputEnabled13=1
+OutputEnabled13=0
 OutputEnabled13_OutputMedium1=0
 OutputEnabled13_OutputMedium2=0
 OutputEnabled13_OutputMedium3=0
@@ -479,7 +479,7 @@ OutputFileNameMulti3==ProjectName
 UseOutputNameForMulti3=0
 OutputFileNameSpecial3=
 OpenOutput3=0
-OutputFilePath4=C:\git\oysm_Keyboard\Project Outputs\
+OutputFilePath4=C:\Git\oysm_nrf_keyboard\Project Outputs\
 ReleaseManaged4=0
 OutputBasePath4=Project Outputs\
 OutputPathMedia4=
@@ -641,7 +641,7 @@ OpenGerberOutput3=0
 OpenNCDrillOutput3=0
 OpenIPCOutput3=0
 EnableReload3=0
-RelativeOutputPath4=C:\git\oysm_Keyboard\Project Outputs\
+RelativeOutputPath4=C:\Git\oysm_nrf_keyboard\Project Outputs\
 OpenOutputs4=0
 AddToProject4=0
 TimestampFolder4=0
